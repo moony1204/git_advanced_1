@@ -2,7 +2,7 @@ from typing import List
 
 def even_list(int_list: List[int]) -> List[int]:
 	return_list = []
-	for i in range(int_list):
+	for i in range(len(int_list)):
 		if int_list[i]%2==0:
 			return_list.append(int_list[i])
 	return return_list
